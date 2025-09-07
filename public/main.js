@@ -7,6 +7,9 @@ const messageContainer = document.getElementById('message-container')
 const messageForm = document.getElementById('message-form')
 const messageInput = document.getElementById('message-input')
 
+const messageTone = new Audio("./message-tone.mp3")
+
+
 
 messageForm.addEventListener('submit', (e) => {
     e.preventDefault()
@@ -39,16 +42,14 @@ function sendMessage() {
 
 
 socket.on('chat-message', (data) => {
-
+    messageTone.play()
     addMessageToUi(false, data)
 })
 
 
 function addMessageToUi(isOwnMessage, data) {
-
     clearFeedback()
-
-    const element = `
+    const element = `fasfsf
         <li class="${isOwnMessage ? "message-right" : "message-left"}">
                 <p class="message">
                     ${data.message}
@@ -65,7 +66,7 @@ function addMessageToUi(isOwnMessage, data) {
 
 
 function scrollToBottom() {
-    messageContainer.scrollTop(0, messageContainer.scrollHeight)
+    messageContainer.scrollTo(0, messageContainer.scrollHeight)
 }
 
 
