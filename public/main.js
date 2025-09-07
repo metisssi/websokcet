@@ -47,7 +47,7 @@ socket.on('chat-message', (data) => {
 function addMessageToUi(isOwnMessage, data) {
 
     clearFeedback()
-    
+
     const element = `
         <li class="${isOwnMessage ? "message-right" : "message-left"}">
                 <p class="message">
@@ -65,7 +65,7 @@ function addMessageToUi(isOwnMessage, data) {
 
 
 function scrollToBottom() {
-    messageContainer.scrollTo(0, messageContainer.scrollHeight)
+    messageContainer.scrollTop(0, messageContainer.scrollHeight)
 }
 
 
