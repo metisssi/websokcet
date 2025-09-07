@@ -42,14 +42,16 @@ function sendMessage() {
 
 
 socket.on('chat-message', (data) => {
-    messageTone.play()
+    messageTone.play().catch(error => {
+        console.log('Autoplay заблокирован:', error);
+    });
     addMessageToUi(false, data)
 })
 
 
 function addMessageToUi(isOwnMessage, data) {
     clearFeedback()
-    const element = `fasfsf
+    const element = `
         <li class="${isOwnMessage ? "message-right" : "message-left"}">
                 <p class="message">
                     ${data.message}
