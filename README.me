@@ -1,32 +1,49 @@
-💬 iChat - Real-time Chat Application
+# 💬 iChat - Real-time Chat Application
+
 A simple real-time chat web application built with Socket.IO.
-✨ Features
 
-💨 Real-time message exchange
-⌨️ "Typing..." indicator
-👥 Connected users counter
-🔊 Sound notifications
-📱 Responsive design
+## ✨ Features
 
-🛠️ Technologies
+- 💨 Real-time message exchange
+- ⌨️ "Typing..." indicator
+- 👥 Connected users counter
+- 🔊 Sound notifications
+- 📱 Responsive design
 
-🟢 Node.js
-⚡ Express.js
-🔗 Socket.IO
-🌐 HTML/CSS/JavaScript
-⏰ Moment.js
+## 🛠️ Technologies
 
-📥 Installation
-1. Clone the repository:
+- 🟢 Node.js
+- ⚡ Express.js
+- 🔗 Socket.IO
+- 🌐 HTML/CSS/JavaScript
+- ⏰ Moment.js
+
+## 📥 Installation
+
+**1. Clone the repository:**
+```
 git clone https://github.com/metisssi/websokcet.git
 cd websockets
-2. Install dependencies:
+```
+
+**2. Install dependencies:**
+```
 npm install
-3. Start the server:
+```
+
+**3. Start the server:**
+```
 npm run dev
-4. Open your browser:
+```
+
+**4. Open your browser:**
+```
 http://localhost:4000
-📁 Project Structure
+```
+
+## 📁 Project Structure
+
+```
 websockets/
 ├── app.js              # 🖥️ Server logic
 ├── package.json        # 📦 Dependencies
@@ -36,27 +53,32 @@ websockets/
 │   ├── style.css       # 🎨 Styles
 │   └── message-tone.mp3 # 🔔 Notification sound
 └── README.md           # 📖 Documentation
-🚀 Usage
+```
 
-👤 Enter your name in the "anonymous" field
-✍️ Type messages in the input field
-⏎ Press Enter or click Send button
-👀 Other users will see your messages in real-time
+## 🚀 Usage
 
-⚙️ How it Works
+1. 👤 Enter your name in the "anonymous" field
+2. ✍️ Type messages in the input field
+3. ⏎ Press Enter or click Send button
+4. 👀 Other users will see your messages in real-time
 
-🖥️ Server: Express.js serves static files and handles Socket.IO connections
-⚡ Real-time: Socket.IO enables instant messaging between clients
-👥 User Tracking: Server maintains connected socket IDs
-⌨️ Typing Indicators: Broadcasts typing status to other users
-🔊 Sound Alerts: Plays audio notifications for new messages
+## ⚙️ How it Works
 
-📜 Scripts
+- **🖥️ Server**: Express.js serves static files and handles Socket.IO connections
+- **⚡ Real-time**: Socket.IO enables instant messaging between clients
+- **👥 User Tracking**: Server maintains connected socket IDs
+- **⌨️ Typing Indicators**: Broadcasts typing status to other users
+- **🔊 Sound Alerts**: Plays audio notifications for new messages
 
-npm start - 🚀 Run in production
-npm run dev - 🔧 Run with nodemon for development
+## 📜 Scripts
 
-🌐 Browser Support
+- `npm start` - 🚀 Run in production
+- `npm run dev` - 🔧 Run with nodemon for development
+
+## 🌐 Browser Support
+
 Works in all modern browsers that support WebSocket connections.
-📄 License
+
+## 📄 License
+
 ISC
