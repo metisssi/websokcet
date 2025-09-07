@@ -79,7 +79,8 @@ websockets/
 
 4. **Typing indicators** - When you focus on the message input, other users see a typing indicator:
    
-   <img width="1898" height="984" alt="Typing indicator shown to other users" src="https://github.com/user-attachments/assets/92ae2392-27e7-4f50-8081-f535a54f38cd" />
+   <img width="1919" height="1038" alt="image" src="https://github.com/user-attachments/assets/a8194f36-6973-44b3-91c9-0642601ce86c" />
+
 
 5. **Real-time typing feedback** - As you type, the indicator updates in real-time:
    
