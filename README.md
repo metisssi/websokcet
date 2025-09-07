@@ -85,8 +85,9 @@ websockets/
 5. **Real-time typing feedback** - As you type, the indicator updates in real-time:
    
    <img width="1918" height="986" alt="Updated typing indicator while typing" src="https://github.com/user-attachments/assets/5b315dad-da16-4b43-8b10-268b0262c91a" />
+   
 
-6. **Multiple users typing** - Each user can see when others are typing:
+6. **Multiple users typing** - Each user can see when others are typing: we can't see 'Andriy is typing' because although there's text in the input field, the focus has moved out of the input
    
    <img width="1895" height="941" alt="Multiple users showing typing indicators" src="https://github.com/user-attachments/assets/19690407-3255-4eb5-b5b7-27af90254f9b" />
    
