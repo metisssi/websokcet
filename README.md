@@ -64,7 +64,8 @@ websockets/
 
 1. **Open multiple browser windows/tabs** pointing to `http://localhost:4000` to simulate different users
    
-  <img width="1899" height="1029" alt="image" src="https://github.com/user-attachments/assets/cd6f3862-1d67-4f7c-bf05-c56797a3a94e" /> 
+  <img width="1919" height="1035" alt="image" src="https://github.com/user-attachments/assets/081a3104-b7bc-4971-b09a-9e65b4ac816c" />
+ 
 
 2. **Check the server console** - you'll see unique client IDs for each connection:
    
